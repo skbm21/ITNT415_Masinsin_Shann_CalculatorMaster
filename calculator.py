@@ -34,7 +34,8 @@ def get_numbers():
 def add(a, b):
     return a + b
 
-
+def subtract(a, b):
+    return a - b
 
 
 
@@ -55,6 +56,8 @@ def main():
 
         if choice == "1":
             show_result("+", a, b, add(a, b))
+        elif choice == "2":
+            show_result("-", a, b, subtract(a, b))
 
 
 if __name__ == "__main__":
