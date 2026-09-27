@@ -36,7 +36,8 @@ def add(a, b):
 
 def subtract(a, b):
     return a - b
-
+def multiply(a, b):
+    return a * b
 
 
 def main():
@@ -58,7 +59,8 @@ def main():
             show_result("+", a, b, add(a, b))
         elif choice == "2":
             show_result("-", a, b, subtract(a, b))
-
+        elif choice == "3":
+            show_result("*", a, b, multiply(a, b))
 
 if __name__ == "__main__":
     main()
