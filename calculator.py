@@ -18,9 +18,10 @@ def show_menu():
 
 
 def show_result(op_symbol, a, b, result):
-    print(f"\n  ✨ {a} {op_symbol} {b} = {result} ✨\n")
-
-
+    print("\n  ✨ ─────────────────────── ✨")
+    print(f"    {a} {op_symbol} {b}  =  {result}")
+    print("  ✨ ─────────────────────── ✨\n")
+ 
 def get_numbers():
     while True:
         try:
@@ -29,6 +30,12 @@ def get_numbers():
             return a, b
         except ValueError:
             print("⚠️ Invalid input. Please enter numeric values only.")
+
+def add(a, b):
+    return a + b
+
+
+
 
 
 def main():
@@ -45,7 +52,9 @@ def main():
             continue
 
         a, b = get_numbers()
-        print("Result: (function not yet implemented)")
+
+        if choice == "1":
+            show_result("+", a, b, add(a, b))
 
 
 if __name__ == "__main__":
