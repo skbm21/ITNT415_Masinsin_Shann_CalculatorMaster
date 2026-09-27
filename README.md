@@ -1,10 +1,10 @@
 # ITNT415_Masinsin_Shann_CalculatorMast
 
-# Shann Kerby B. Masinsin
-Student Name
+# Student Name
+Shann Kerby B. Masinsin
 
-# BIT42
-Course and Section
+# Course and Section
+BIT42
 
 # Project Description
 A menu-driven Python calculator built to practice Git branching and GitHub collaboration workflows. Each operation was developed on a separate feature branch and merged via pull request, resulting in a single integrated calculator with input validation and error handling.
@@ -14,13 +14,37 @@ A menu-driven Python calculator built to practice Git branching and GitHub colla
 - subtraction_Masinsin
 - multiplication_Masinsin
 - division_Masinsin
-<img width="766" height="217" alt="image" src="https://github.com/user-attachments/assets/2e2b56c6-54b7-4737-a1a7-077621cf9c52" />
+<img width="791" height="219" alt="image" src="https://github.com/user-attachments/assets/66d8ff6c-4be3-4861-8527-d1cfda15e987" />
+
+
+# Project Description
+- Menu-driven interface with numbered options (1–5)
+- Supports four operations: addition, subtraction, multiplication, and division
+- Input validation — rejects non-numeric entries and re-prompts the user
+- Invalid menu choice handling — alerts the user and returns to the menu
+- Division-by-zero protection — displays an error instead of crashing
+- Continuous execution — loops back to the menu after each calculation until the user selects Exit
+- Stylized console output with a custom banner and formatted result display
+
 
 # Sample Execution Screenshot (including error validation)
-<img width="848" height="390" alt="image" src="https://github.com/user-attachments/assets/47bd926c-5da3-4dd2-b684-c4645eff7c6d" />
 
-<img width="479" height="316" alt="image" src="https://github.com/user-attachments/assets/ae618493-862f-4fc7-80dc-1a1692893cf7" />
+Addition
+<img width="847" height="391" alt="image" src="https://github.com/user-attachments/assets/6be67ddf-f951-4985-a736-7f7b5e7351a0" />
 
-<img width="691" height="1061" alt="image" src="https://github.com/user-attachments/assets/9ce107bf-868f-46c7-99c6-746b29cee996" />
+Subtraction
+<img width="508" height="308" alt="image" src="https://github.com/user-attachments/assets/2a482545-8280-4c4a-aef1-927cbdd9aac8" />
 
+Multiplication
+<img width="391" height="281" alt="image" src="https://github.com/user-attachments/assets/0a3ebc97-7f40-41de-985c-4a91d31d348a" />
+
+Division
+<img width="356" height="283" alt="image" src="https://github.com/user-attachments/assets/2be235c8-62b2-49b6-aa91-683bd60322c3" />
+
+Error Handling
+<img width="369" height="627" alt="image" src="https://github.com/user-attachments/assets/f7ce9a65-22d5-49fb-902d-8559f4236978" />
+
+<img width="486" height="382" alt="image" src="https://github.com/user-attachments/assets/f9371a0a-61ac-4fab-a8cc-226d85823915" />
+
+<img width="566" height="269" alt="image" src="https://github.com/user-attachments/assets/c404ba50-2751-4db9-b69f-4c4b87595cb6" />
 
