@@ -38,7 +38,10 @@ def subtract(a, b):
     return a - b
 def multiply(a, b):
     return a * b
-
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero is not allowed!"
+    return a / b
 
 def main():
     show_banner()
@@ -61,6 +64,7 @@ def main():
             show_result("-", a, b, subtract(a, b))
         elif choice == "3":
             show_result("*", a, b, multiply(a, b))
-
+        elif choice == "4":
+            show_result("/", a, b, divide(a, b))
 if __name__ == "__main__":
     main()
